@@ -73,13 +73,23 @@ body {
   overflow: hidden;
   background:
     radial-gradient(
-      circle at 50% 42%,
-      rgba(58, 16, 27, 0.32) 0%,
-      rgba(22, 10, 14, 0.18) 30%,
-      rgba(8, 6, 7, 0) 62%
+      circle at 50% 38%,
+      rgba(255, 180, 190, 0.10) 0%,
+      rgba(214, 75, 98, 0.18) 14%,
+      rgba(166, 83, 54, 0.16) 28%,
+      rgba(122, 24, 46, 0.22) 44%,
+      rgba(34, 10, 16, 0.92) 68%,
+      rgba(8, 6, 7, 1) 100%
     ),
-    #080607;
-  color: var(--ink);
+    linear-gradient(
+      135deg,
+      #080607 0%,
+      #10080c 22%,
+      #1b0a11 42%,
+      #12080c 62%,
+      #080607 100%
+    );
+  color: var(--text);
   isolation: isolate;
 }
 
