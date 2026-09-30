@@ -72,17 +72,15 @@ body {
   place-items: center;
   overflow: hidden;
   background:
-    radial-gradient(circle at 50% 42%, rgba(245, 240, 237, 0.95), rgba(255,255,255,0) 36%),
-    var(--paper);
+    radial-gradient(
+      circle at 50% 42%,
+      rgba(58, 16, 27, 0.32) 0%,
+      rgba(22, 10, 14, 0.18) 30%,
+      rgba(8, 6, 7, 0) 62%
+    ),
+    #080607;
   color: var(--ink);
   isolation: isolate;
-}
-
-.hero::before,
-.hero::after {
-  content: "";
-  position: absolute;
-  pointer-events: none;
 }
 
 .hero::before {
